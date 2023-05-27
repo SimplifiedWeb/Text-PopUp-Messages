@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Changeable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading" id="color1" onclick="boxcontainer('box1')">First</div>
+        <div class="heading" id="color2"  onclick="boxcontainer('box2')">Second</div>
+        <div class="heading" id="color3"  onclick="boxcontainer('box3')">Third</div>
+        <div class="heading" id="color4"  onclick="boxcontainer('box4')">Fourth</div>
+    </div>
+
+    <div class="containerbox" id="box1">
+        <span class="btn" onclick="this.parentElement.style.display = 'none'">&times;</span>
+        <p class="text"> This is From the First Button
+        </p>
+    </div>
+    <div class="containerbox" id="box2">
+        <span class="btn"  onclick="this.parentElement.style.display = 'none'">&times;</span>
+        <p class="text">This is From the Second Button
+        </p>
+    </div>
+    <div class="containerbox" id="box3">
+        <span class="btn"  onclick="this.parentElement.style.display = 'none'">&times;</span>
+        <p class="text">This is From the Third Button
+        </p>
+    </div>
+    <div class="containerbox" id="box4">
+        <span class="btn"  onclick="this.parentElement.style.display = 'none'">&times;</span>
+        <p class="text">This is From the fourth Button
+        </p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
