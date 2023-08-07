@@ -1,4 +1,8 @@
 # Text-PopUp-Messages
+# The Main goal is to Understand The Logic How it is working.
+# Open project code one side and this readme another side to better understand what I'm trying to say.
+Check out Demo: https://simplifiedweb.github.io/Text-PopUp-Messages/
+
 I made a simple example how we do the popup messages. Read the Readme file you can understand better.
 
 So in these simple project,
